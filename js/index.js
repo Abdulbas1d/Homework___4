@@ -5,4 +5,18 @@ const container = document.getElementById("container")
 
 button.addEventListener('click', function() {
     container.style.backgroundColor = "yellow"
+    button.style.width = "100px"
+    button.style.backgroundColor = "green"
 });
+
+buttonEl.addEventListener('click', function() {
+    container.style.backgroundColor = "blue"
+    button.style.width = "100px"
+    button.style.backgroundColor = "green"
+});
+
+button2.addEventListener('click', function() {
+    container.style.backgroundColor = "green"
+    button.style.width = "100px"
+    button.style.backgroundColor = "yellow"
+})
